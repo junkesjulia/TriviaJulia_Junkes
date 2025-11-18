@@ -28,4 +28,4 @@ elif opc == "2":
 elif opc == "3":
     dificuldade = "hard"
 else:
-
+    dificuldade = "medium"
