@@ -60,10 +60,10 @@ for q in dados:
 
     try:
         if opcoes[int(resposta)-1] == correta:
-            print("✔ Acertou!")
+            print("Acertou!")
             pontos += 1
         else:
-            print("✘ Errou!")
+            print("Errou!")
             print("Resposta correta:", correta)
     except:
         print("Resposta inválida. Correta era:", correta)
