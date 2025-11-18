@@ -50,3 +50,8 @@ for q in dados:
 
     import random
     random.shuffle(opcoes)
+
+    print("\n" + pergunta)
+
+    for i, op in enumerate(opcoes, 1):
+        print(f"{i}) {op}")
