@@ -37,4 +37,11 @@ resp = requests.get(url)
 dados = resp.json()["results"]
 
 pontos = 0  
-num = 1     
+num = 1
+
+for q in dados:
+    print(f"\n=== QUESTÃO {num} ===")
+
+    pergunta = traduzir(q["question"])
+    correta = traduzir(q["correct_answer"])
+    erradas = [traduzir(e) for e in q["incorrect_answers"]]
