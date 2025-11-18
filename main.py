@@ -66,3 +66,4 @@ for q in dados:
             print("✘ Errou!")
             print("Resposta correta:", correta)
     except:
+        print("Resposta inválida. Correta era:", correta)
