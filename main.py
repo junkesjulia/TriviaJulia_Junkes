@@ -19,3 +19,5 @@ print("2 - Médio")
 print("3 - Difícil")
 
 
+opc = input("Digite: ")
+
