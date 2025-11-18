@@ -55,3 +55,14 @@ for q in dados:
 
     for i, op in enumerate(opcoes, 1):
         print(f"{i}) {op}")
+
+    resposta = input("Sua resposta: ")
+
+    try:
+        if opcoes[int(resposta)-1] == correta:
+            print("✔ Acertou!")
+            pontos += 1
+        else:
+            print("✘ Errou!")
+            print("Resposta correta:", correta)
+    except:
