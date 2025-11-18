@@ -45,3 +45,8 @@ for q in dados:
     pergunta = traduzir(q["question"])
     correta = traduzir(q["correct_answer"])
     erradas = [traduzir(e) for e in q["incorrect_answers"]]
+
+    opcoes = erradas + [correta]
+
+    import random
+    random.shuffle(opcoes)
