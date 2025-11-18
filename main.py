@@ -67,3 +67,8 @@ for q in dados:
             print("Resposta correta:", correta)
     except:
         print("Resposta inválida. Correta era:", correta)
+
+    num += 1
+
+print("\n=== FIM DO JOGO ===")
+print("Pontuação:", pontos, "de", len(dados))
